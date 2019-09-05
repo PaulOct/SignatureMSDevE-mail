@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+}
+
+table {
+    border-spacing: 0;
+}
+
+table td {
+    padding: 0;
+    vertical-align: center;
+}
+
+table td:first-child {
+    padding-right: 4px;
+    color: red;
+}
+
+p:last-child * {
+    color: grey;
+    font-size: 12px;
+}
